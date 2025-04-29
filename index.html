@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chair Selling Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chair Selling Application</h1>
+    </header>
+    <main>
+        <section id="chair-list">
+            <h2>Available Chairs</h2>
+            <div class="chair" id="chair1">
+                <img src="images/chairs/chair1.jpg" alt="Chair 1">
+                <h3>Chair 1</h3>
+                <p>Dimensions: 40x40x90 cm</p>
+                <p>Materials: Wood, Fabric</p>
+                <p>Price: $100</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="chair" id="chair2">
+                <img src="images/chairs/chair2.jpg" alt="Chair 2">
+                <h3>Chair 2</h3>
+                <p>Dimensions: 45x45x95 cm</p>
+                <p>Materials: Metal, Leather</p>
+                <p>Price: $150</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="chair" id="chair3">
+                <img src="images/chairs/chair3.jpg" alt="Chair 3">
+                <h3>Chair 3</h3>
+                <p>Dimensions: 50x50x100 cm</p>
+                <p>Materials: Plastic, Fabric</p>
+                <p>Price: $80</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section id="chair-details">
+            <h2>Chair Details</h2>
+            <div id="details-content">
+                <!-- Detailed information about each chair will be dynamically loaded here -->
+            </div>
+        </section>
+        <section id="shopping-cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-content">
+                <!-- Shopping cart items will be dynamically loaded here -->
+            </div>
+            <button id="checkout-button">Checkout</button>
+        </section>
+        <section id="user-authentication">
+            <h2>User Authentication</h2>
+            <div id="auth-content">
+                <!-- User authentication and account management forms will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
